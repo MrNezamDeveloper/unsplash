@@ -1,0 +1,25 @@
+p{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px;
+}
+p > span{
+    font-size: 14px;
+    
+}
+.image_list{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns:repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: 5px;
+    gap: 5px;
+}
+.image_list .image-card{
+   background-color: yellow;
+   margin-bottom: 7px;
+}
+.image_list .image-card img{
+    width: 100%;
+}
